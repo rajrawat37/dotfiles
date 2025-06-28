@@ -1,0 +1,10 @@
+[user]
+	name = rajkumar-rawat
+	email = rajkumar.rawat@salesforce.com
+	signingkey = /Users/rajkumar.rawat/.ssh/id_ed25519_personal.pub
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+[gpg "ssh"]
+	allowedSignersFile = /Users/rajkumar.rawat/.ssh/allowed_signers
