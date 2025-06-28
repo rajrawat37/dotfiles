@@ -1,16 +1,3 @@
 [user]
-    name = Raj Rawat
-    email = rawatraj995@gmail.com
-    signingkey = SHA256:Yd4G80mjXIklma8ThVzAJsIbWpAdcb+wOGOrot+nyKk
-
-[commit]
-    gpgsign = true
-
-[gpg]
-    format = ssh
-
-[gpg "ssh"]
-    allowedSignersFile = ~/.ssh/allowed_signers
-
-[includeIf "gitdir:~/work/salesforce/"]
-    path = ~/.gitconfig-work
+  name = Raj Rawat
+  email = rawatraj995@gmail.com
